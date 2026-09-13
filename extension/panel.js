@@ -7,7 +7,7 @@
     }
 
 const DEFAULT_SERVER_URL =
-    "https://try-server-5rp4.onrender.com";
+    "https://zipserver-v01.onrender.com";
 
 
 

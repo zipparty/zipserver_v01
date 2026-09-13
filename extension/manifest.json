@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "TVP",
+    "name": "zip party",
     "version": "1.0.0",
     "description": "TVING & WAVVE Watch Party",
 
@@ -17,7 +17,7 @@
         "32": "icon.png"
     },
     "default_popup": "popup.html",
-    "default_title": "TVP"
+    "default_title": "zip party"
 },
 
     "permissions": [
@@ -30,7 +30,7 @@
     "https://www.wavve.com/*",
     "https://www.disneyplus.com/*",
     "http://localhost:3000/*",
-    "https://try-server-5rp4.onrender.com/*",
+    "https://zipserver-v01.onrender.com/*",
     "https://test-server-wp3c.onrender.com/*"
 ],
 

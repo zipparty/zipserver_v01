@@ -1622,7 +1622,7 @@ function ensurePlayerBlackBackdrop() {
             );
 
         frame.title =
-            "TVP Watch Party";
+            "zip party";
 
         frame.allow =
             "clipboard-write";

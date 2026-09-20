@@ -1424,17 +1424,22 @@ return button;
         findVideo();
 
     if (
-        frame ||
-        document.getElementById(
-            FRAME_ID
-        ) ||
-        !video ||
-        !window.location.pathname.startsWith(
+    frame ||
+    document.getElementById(
+        FRAME_ID
+    ) ||
+    !video ||
+    !(
+        window.location.pathname.startsWith(
             "/player/stream/vod"
+        ) ||
+        window.location.pathname.startsWith(
+            "/player/stream/movie"
         )
-    ) {
-        return;
-    }
+    )
+) {
+    return;
+}
 
         frame =
             document.createElement(
@@ -1641,8 +1646,13 @@ const observer =
 
        } else if (
     frame &&
-    !window.location.pathname.startsWith(
-        "/player/stream/vod"
+    !(
+        window.location.pathname.startsWith(
+            "/player/stream/vod"
+        ) ||
+        window.location.pathname.startsWith(
+            "/player/stream/movie"
+        )
     )
 ) {
     removePanel();
